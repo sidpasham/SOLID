@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SRP", "SOLID\SRP.csproj", "{D4438FA1-4CCE-4338-AEA6-1FE38E575408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP", "OCP\OCP.csproj", "{53EE08AE-339B-4700-AA17-190DFB573DAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D4438FA1-4CCE-4338-AEA6-1FE38E575408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4438FA1-4CCE-4338-AEA6-1FE38E575408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4438FA1-4CCE-4338-AEA6-1FE38E575408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EE08AE-339B-4700-AA17-190DFB573DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EE08AE-339B-4700-AA17-190DFB573DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EE08AE-339B-4700-AA17-190DFB573DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EE08AE-339B-4700-AA17-190DFB573DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
