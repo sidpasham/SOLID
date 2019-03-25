@@ -7,7 +7,7 @@
         bool IsComplete { get; set; }
         IPerson Owner { get; set; }
 
-        void CompleteChore();
+        void CompleteChore(string email);
         void PerfomedWord(int hours);
     }
 }

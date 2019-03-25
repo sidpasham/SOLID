@@ -13,7 +13,7 @@ namespace DIP
 
             IPerson person = Factory.CreatePerson();
 
-            person.Firstname = "Sid";
+            person.Firstname = "Siddhanth";
             person.Lastname = "Pasham";
             person.Age = 26;
             person.Email = "sidpasham@gmail.com";
@@ -21,7 +21,7 @@ namespace DIP
             IChore chore = Factory.CreateChore();
             chore.PerfomedWord(5);
             chore.PerfomedWord(7);
-            chore.CompleteChore();
+            chore.CompleteChore(person.Email);
 
             Console.ReadLine();
         }

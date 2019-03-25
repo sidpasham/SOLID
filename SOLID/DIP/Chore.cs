@@ -33,11 +33,11 @@ namespace DIP
             _logger.Log($"Completed Performed Work with {hours}");
         }
 
-        public void CompleteChore()
+        public void CompleteChore(string email)
         {
             IsComplete = true;
             _logger.Log($"Completed Chore");
-            _messageSender.SendMessage("Sending Message as Completed Chore");
+            _messageSender.SendMessage($"Sending Message to {email} as Completed Chore");
         }
             
     }
